@@ -9,7 +9,7 @@
 .sub-header {
 	height: 55vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(images/apa.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(apa.jpg);
 	background-position: center;
 	background-size: cover;
 	text-align: center;
