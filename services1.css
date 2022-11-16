@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+
+/*-- about page --*/
+
+.sub-header {
+	height: 55vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(images/apa.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: whitesmoke;
+}
+
+/*--Layanan--*/
+
+.layanan {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 30px;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 600;
+
+}
+
+p {
+	color: black;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.row {
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.course-col {
+	flex-basis: 23%;
+	background: #48D1CC;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+
+h2 {
+	text-align: center;
+	font-weight: 600;
+	margin: 7px 0;
+}
+
+.course-col:hover {
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*--footer--*/
+
+.footer {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+h4 {
+	font-size: 25px;
+	font-weight: 600;
+
+}
+
+p {
+	color: black;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.row {
+	margin-top: 5%;
+}
+
+.course-col1 {
+	flex-basis: 100%;
+	background: #48D1CC;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}

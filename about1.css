@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+
+/*-- about page --*/
+
+.sub-header {
+	height: 55vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(images/apa.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: whitesmoke;
+}
+
+/*--About--*/
+
+.about {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 30px;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 600;
+
+}
+
+p {
+	color: black;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+li{
+	color: black;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 5px;
+}
+
+.row {
+	margin-top: 5%;
+}
+
+.course-col {
+	flex-basis: 31%;
+	background: #48D1CC;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+
+h3 {
+	text-align: center;
+	font-weight: 600;
+	margin: 7px 0;
+}
+
+.course-col:hover {
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*--footer--*/
+
+.footer {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+h4 {
+	font-size: 25px;
+	font-weight: 600;
+
+}
+
+p {
+	color: black;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.row {
+	margin-top: 5%;
+}
+
+.course-col {
+	flex-basis: 31%;
+	background: #48D1CC;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}

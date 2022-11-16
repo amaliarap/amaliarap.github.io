@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+
+/*-- about page --*/
+
+.sub-header {
+	height: 55vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(images/apa.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: whitesmoke;
+}
+
+/*--Contact--*/
+
+.contact {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.contact iframe {
+	width: 100%;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 600;
+
+}
+
+p {
+	color: black;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.row {
+	margin-top: 5%;
+}
+
+.course-col {
+	flex-basis: 31%;
+	background: #48D1CC;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+
+.contact-us {
+	width: 80%;
+	margin: auto;
+}
+
+.contact-col {
+	flex-basis: 48%;
+	margin-bottom: 30px;
+}
+
+.contact-col div{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.contact-col div .fa {
+	font-size: 28px;
+	color: #008080;
+	margin: 10px;
+	margin-right: 30px;
+}
+
+.contact-col div p {
+	padding: 0;
+}
+
+.contact-col div h4{
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: black;
+	font-weight: 400;
+}
+
+/*--footer--*/
+
+.footer {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+h4 {
+	font-size: 25px;
+	font-weight: 600;
+
+}
+
+p {
+	color: black;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.row {
+	margin-top: 5%;
+}
+
+.course1-col {
+	flex-basis: 31%;
+	background: #48D1CC;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
